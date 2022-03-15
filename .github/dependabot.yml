@@ -1,0 +1,18 @@
+version: 2
+registries:
+  gemfury:
+    type: python-index
+    url: https://pypi.fury.io/nomad/
+    token: ${{ secrets.GEMFURY_DEPLOY_TOKEN }}
+    replaces-base: false
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries: "*"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries: "*"
