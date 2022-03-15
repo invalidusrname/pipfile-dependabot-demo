@@ -5,6 +5,6 @@ name = "pypi"
 
 
 [packages]
-ipython = "==6.3.1"
+pydantic = "==1.4"
 
 [dev-packages]
