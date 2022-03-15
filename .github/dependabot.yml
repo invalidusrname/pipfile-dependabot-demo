@@ -13,6 +13,7 @@ updates:
     registries: "*"
   - package-ecosystem: "pip"
     directory: "/"
+    insecure-external-code-execution: allow
     schedule:
       interval: "daily"
     registries: "*"
