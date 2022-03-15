@@ -5,7 +5,6 @@ name = "pypi"
 
 
 [packages]
-ipython = "==8.1.1"
-urllib3 = "==1.26.5"
+ipython = "==6.3.1"
 
 [dev-packages]
