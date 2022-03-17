@@ -8,3 +8,7 @@ name = "pypi"
 pydantic = "==1.4"
 
 [dev-packages]
+
+[requires]
+python_version = "3.6.9"
+
